@@ -5,6 +5,8 @@ on:
     - main
     paths:
     - 'src/SampleFunctionDotNet/**'
+
+  workflow_dispatch:
     
 env:
   AZURE_FUNCTIONAPP_NAME: SampleFunctionDotNet
